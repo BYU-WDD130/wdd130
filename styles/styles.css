@@ -3,7 +3,7 @@ nav {
     padding: 10px;
 }
 nav a {
-    color: rgb(148, 139, 139);
+    color: rgb(245, 241, 241);
     display: block;
     padding: 20px;
 }
@@ -21,4 +21,25 @@ img {
 
 p {
     padding: 10px;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2); / */  1️ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
