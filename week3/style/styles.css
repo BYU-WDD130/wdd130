@@ -1,7 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+
+}
+
 
 body{
-    background: lightgray
-    font-family Arial, helvetica, sans-serif; 
+    background: lightgray;
+    font-family: Arial, helvetica, sans-serif; 
 }
 
 #container{
@@ -9,51 +15,76 @@ body{
     margin: 0px auto;
     border: 1px solid black;
 }
-nav {
-    background-color: red;
-    padding: 10px;
-}
-nav a {
-    color: rgb(245, 241, 241);
-    display: block;
-    padding: 20px;
-}
-h1 {
-    color: rgb(10, 10, 10); 
-}
 
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid rgb(0 0 0 /0.1);
-    padding: 2px;
-    box-shadow: 0 0 30px rgb(141, 123, 123);
-    
-}
-
-p {
-    padding: 0px;
-}
-main {
-    max-width: 840px;
-}
-aside {
-    width: 20rem;
-    margin: 2rem;
-    border: 1px solid  rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #746f6f;
-    color: #333;
-    }
-
-aside img {
-    width: 200px;
-    height: auto;
-    }
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
+header{
+    background: 219ebc;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
     text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px;
 }
 
+nav {
+    background: ffb703;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+   float: left;
+   list-style: none;
+   margin: 10px;
+   line-height: 30px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left;
+    width: calc(80% -80px);
+    min-height: 500px;
+    background: 8ecae6;
+    padding: 40px;
+}
+
+.article {
+    color: white;
+    margin-top: 15p;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee; 
+}
+
+.article:first-child{
+    padding: 10px;
+    border-top: 1px solid #eee;
+
+}
+
+.article h2{
+    font-size: 25px;
+
+}
+
+aside{
+    float: left;
+    width: calc(20% -20px);
+    background: fb8500;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer {
+    background: 2a9d8f;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
 /* This is a CSS comment */
