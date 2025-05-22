@@ -1,5 +1,16 @@
+
+body{
+    background: lightgray
+    font-family Arial, helvetica, sans-serif; 
+}
+
+#container{
+    width:1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
 nav {
-    background-color: darkblue;
+    background-color: red;
     padding: 10px;
 }
 nav a {
