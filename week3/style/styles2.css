@@ -76,7 +76,7 @@ nav ul li{
 
 aside{
     float: center;
-    width: calc(80% -120px);
+    width: calc(80% -80px);
     background: rgb(245, 245, 243);
     min-height: 500px;
     padding: 10px;
