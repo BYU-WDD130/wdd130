@@ -76,6 +76,7 @@ aside{
     float: left;
     width: calc(20% -20px);
     background: red;
+    min-height: 500px;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
