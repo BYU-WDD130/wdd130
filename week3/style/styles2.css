@@ -73,7 +73,7 @@ nav ul li{
 }
 
 aside{
-    float: left;
+    float: center;
     width: calc(120% -120px);
     background: red;
     min-height: 500px;
@@ -88,5 +88,6 @@ footer {
     color: white;
     text-align: center;
     height: 50px;
+    line-height: 50px;
 }
 /* This is a CSS comment */
