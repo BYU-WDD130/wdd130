@@ -1,120 +1,4 @@
-/*
-*{
-  margin: 0px;
-  padding: 0px; 
 
-}
-*/
-
-body{
-    background: rgb(197, 214, 209);
-    font-family: Arial, helvetica, sans-serif; 
-}
-
-#container{
-    width:1100px;
-    margin: 0px auto;
-    border: 1px solid rgb(124, 5, 5);
-}
-
-header{
-    background: blue;
-    height: 100px;
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    line-height: 100px;
-    color: white;
-    border-bottom: 3px;
-}
-
-nav {
-    background: grey;
-    height: 50px;
-    border-bottom: 1px solid black;
-}
-
-nav ul li{
-   float: left;
-   list-style: none;
-   margin: 10px;
-   line-height: 30px;
-}
-
-.clearfix{
-    clear:both;
-}
-
-#content{
-    float: left;
-    width: calc(80% -80px);
-    min-height: 500px;
-    background: 8ecae6;
-    padding: 40px;
-}
-
-.article {
-    color: rgb(233, 196, 196);
-    margin-top: 15p;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #331010; 
-}
-
-.article:first-child{
-    padding: 10px;
-    border-top: 1px solid #eee;
-
-}
-
-.article h2{
-    font-size: 25px;
-
-}
-
-aside{
-    float: left;
-    width: calc(20% -20px);
-    background: fb8500;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-}
-
-footer {
-    background: green;
-    color: white;
-    text-align: center;
-    height: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -161,5 +45,8 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+
+/*
 
 This is a CSS comment */
