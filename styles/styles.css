@@ -7,18 +7,18 @@
 
 
 body{
-    background: lightgray;
+    background: rgb(197, 214, 209);
     font-family: Arial, helvetica, sans-serif; 
 }
 
 #container{
     width:1100px;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 1px solid rgb(124, 5, 5);
 }
 
 header{
-    background: 219ebc;
+    background: blue;
     height: 100px;
     width: 100%;
     margin: 0px;
@@ -29,7 +29,7 @@ header{
 }
 
 nav {
-    background: ffb703;
+    background: grey;
     height: 50px;
     border-bottom: 1px solid black;
 }
@@ -54,11 +54,11 @@ nav ul li{
 }
 
 .article {
-    color: white;
+    color: rgb(233, 196, 196);
     margin-top: 15p;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee; 
+    border-bottom: 1px solid #331010; 
 }
 
 .article:first-child{
@@ -83,7 +83,7 @@ aside{
 }
 
 footer {
-    background: 2a9d8f;
+    background: green;
     color: white;
     text-align: center;
     height: 50px;
