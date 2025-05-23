@@ -10,11 +10,8 @@ body{
     font-family: Arial, helvetica, sans-serif; 
 }
 
-header img{
-    width: 200px;
-    height: auto;
-    }
-    
+
+
 #container{
     width:1100px;
     margin: 0px auto;
@@ -88,6 +85,12 @@ aside{
     padding-top: 20px;
 }
 
+aside img{
+    width: 500px;
+    height: auto;
+    height:150px;
+
+    }
 footer {
     background: black;
     width: 180px;
