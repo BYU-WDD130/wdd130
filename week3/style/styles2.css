@@ -28,7 +28,7 @@ header{
 }
 
 nav {
-    background: ffb703;
+    background: #8ecae6;
     height: 50px;
     border-bottom: 1px solid black;
 }
@@ -48,7 +48,7 @@ nav ul li{
     float: left;
     width: calc(80% -80px);
     min-height: 500px;
-    background: 8ecae6;
+    background: #ffb703;
     padding: 40px;
 }
 
@@ -74,7 +74,7 @@ nav ul li{
 aside{
     float: left;
     width: calc(20% -20px);
-    background: fb8500;
+    background: red;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -82,7 +82,7 @@ aside{
 }
 
 footer {
-    background: 2a9d8f;
+    background: black;
     color: white;
     text-align: center;
     height: 50px;
