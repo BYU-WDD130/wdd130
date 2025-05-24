@@ -125,22 +125,23 @@ header a:hover{
 
 }
 
-##White-Water-Rafting-Trips h2{
+#White-Water-Rafting-Trips h2{
     margin-top: 0;
 
 }
 
-##White-Water-Rafting-Trips p{
+#White-Water-Rafting-Trips p{
     display: none;
 }
 
-##White-Water-Rafting-Trips carta{
+#White-Water-Rafting-Trips carta{
+    text-align: center;
 
 }
 
 
 .carta:first-child{
-        background-image: linear-gradient(
+        background-image: linear-gradient
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
