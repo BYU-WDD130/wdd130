@@ -102,7 +102,15 @@ main{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     );
+ 
+}
 
+.hero-image{
+    max-width:1000px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 quto;
 }
 
 #hero h1{
