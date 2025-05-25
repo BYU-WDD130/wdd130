@@ -83,6 +83,10 @@ header a:hover{
     color: blueviolet;
 }
 
+main{
+    max-width:1400px;
+    margin: auto;
+}
 
 
 #hero{
