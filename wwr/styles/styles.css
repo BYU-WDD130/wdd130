@@ -123,7 +123,6 @@ main{
     transform: translate(-50%, -50%);
     color: rgb(248, 242, 242);
     text-align: center;
-    background-color: rgba(221, 214, 214, 0.5);
     padding: 20px;
     border-radius: 10px;
 }
