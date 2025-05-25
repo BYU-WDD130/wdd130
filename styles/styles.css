@@ -1,173 +1,48 @@
-*{
-    box-sizing: border-box;
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+nav a {
+    color: rgb(245, 241, 241);
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: rgb(10, 10, 10); 
 }
 
-
-body{
-    font-family:'Roboto' , sans-serif;
-    font-weight: 400;
-    margin: 0;
-    accent-color: rgb(17, 17, 17);
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgb(0 0 0 /0.1);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(141, 123, 123);
     
 }
 
-h1{ font-weight:100;
-    font-size: 3.5em;}
-h2{ font-weight:100;
-    font-size: 2.7em;}
-h3{ font-weight:100;
-    font-size: 1.25em;}
-ul{ list-style: none;}
-
-button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background: rgb(113, 34, 187);
-
+p {
+    padding: 0px;
 }
-
-button:hover{
-     background-color: rgb(101,33,165);
+main {
+    max-width: 840px;
 }
+aside {
+    width: 20rem;
+    margin: 2rem;
+    border: 1px solid  rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #746f6f;
+    color: #333;
+    }
 
-.container{
-    max-width:1400px;
-    margin: auto;
-
-}
-
-.color-acento{
-    color:blueviolet;
-}
-
-header{
-     background-color: rgb(245,245,245);
-    
-}
-
-header .logo{
-   margin:0;
-   padding:25px 30px;
-   font-weight: bold;
-   color: #8338ec;
-   font-size: 1.6em;
-}
-
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #000000;
-}
-
-header a:hover{
-    color: blueviolet;
-}
-
-main{
-    max-width:1400px;
-    margin: auto;
-}
-
-
-#hero{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    );
-
-}
-
-#hero h1{
-    color: white;
-    accent-color: rgb(250, 248, 248);
-}
-
-
-
-#Who-we-are .container{
-    text-align:  center;
-    padding: 200px 12px;
-
-}
-
-#White-Water-Rafting-Trips{
-    background: rgba(30,30,30);
-    color: white;
+aside img {
+    width: 200px;
+    height: auto;
+    }
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
 
-#White-Water-Rafting-Trips .container{
-    padding: 150px 12px;
-
-
-}
-
-#White-Water-Rafting-Trips h2{
-    margin-top: 0;
-
-}
-
-#White-Water-Rafting-Trips p{
-    display: none;
-}
-
-#White-Water-Rafting-Trips .carta{
-    text-align: center;
-
-}
-
-
-.carta:first-child{
-        background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-         );
-
-}
-
-aside .h3{
-    text-align: center;
-    padding: 25px 30px;
-}
-
-#Reserve-now{
-    text-align: center;
-    padding: 25px 30px;
-}
-
-#Reserve-now .container{
-        text-align:  center;
-        padding: 200px 12px;
-}
-
-footer{
-    text-align: center;
-}
