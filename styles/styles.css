@@ -148,3 +148,8 @@ header a:hover{
          );
 
 }
+
+aside .h3{
+    text-align: center;
+    padding: 25px 30px;
+}
