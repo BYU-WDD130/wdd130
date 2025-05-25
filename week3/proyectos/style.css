@@ -1,0 +1,104 @@
+
+*{
+  margin: 0px;
+  padding: 0px; 
+
+}
+
+
+body{
+    background: lightgray;
+    font-family: Arial, helvetica, sans-serif; 
+}
+
+
+
+#container{
+    width:1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: #219ebc;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px;
+}
+
+nav {
+    background: #8ecae6;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+   float: left;
+   list-style: none;
+   margin: 10px;
+   line-height: 30px;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left;
+    width: calc(40% -40px);
+    min-height: 500px;
+    background: #ffb703;
+    padding: 40px;
+}
+
+.article {
+    color: white;
+    margin-top: 15p;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee; 
+}
+
+.article:first-child{
+    padding: 10px;
+    border-top: 1px solid #eee;
+
+}
+
+.article h2{
+    font-size: 25px;
+    text-align: left;
+
+}
+
+aside{
+    float: center;
+    width: calc(80% -80px);
+    background: rgb(245, 245, 243);
+    min-height: 500px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+aside img{
+    width: 500px;
+    height: auto;
+    height:150px;
+
+    }
+footer {
+    background: black;
+    width: 180px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* This is a CSS comment */
