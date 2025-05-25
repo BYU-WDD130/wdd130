@@ -53,7 +53,7 @@ header{
 header .logo{
    margin:0;
    padding:25px 30px;
-   font-weight: normal;
+   font-weight: bold;
    color: #8338ec;
    font-size: 1.6em;
 }
@@ -75,7 +75,7 @@ header nav{
 header a{
     padding: 5px 12px;
     text-decoration: none;
-    font-weight: bolt;
+    font-weight: bold;
     color: #000000;
 }
 
@@ -89,7 +89,7 @@ header a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: center;
+    text-align: center;
     flex-direction: column;
     height: 90vh;
     color: white;
@@ -97,11 +97,7 @@ header a:hover{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    )
-    ,url("media/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    );
 
 }
 
@@ -114,7 +110,7 @@ header a:hover{
 
 #Who-we-are .container{
     text-align:  center;
-    padding: 200px 12px;;
+    padding: 200px 12px;
 
 }
 
@@ -124,7 +120,7 @@ header a:hover{
     text-align: center;
 }
 
-#White-Water-Rafting-Trips .continer{
+#White-Water-Rafting-Trips .container{
     padding: 150px 12px;
 
 
@@ -139,16 +135,16 @@ header a:hover{
     display: none;
 }
 
-#White-Water-Rafting-Trips carta{
+#White-Water-Rafting-Trips .carta{
     text-align: center;
 
 }
 
 
 .carta:first-child{
-        background-image: linear-gradient
-        0deg,
+        background-image: linear-gradient(
         rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5);
+        rgba(0,0,0,0.5)
+         );
 
 }
