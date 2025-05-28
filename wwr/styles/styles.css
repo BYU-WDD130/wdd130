@@ -88,6 +88,9 @@ main{
     margin: auto;
 }
 
+section {
+    display: flex;
+}
 
 #hero{
     position: relative;
