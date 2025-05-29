@@ -80,6 +80,13 @@ header .logo {
   font-size: 1.6em;
 }
 
+.header-image{
+    position: left;
+    padding: 5px;
+    text-align: right;
+
+}
+
 header .container {
   display: flex;
   flex-direction: column;
