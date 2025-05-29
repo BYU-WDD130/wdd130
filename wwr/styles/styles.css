@@ -1,3 +1,13 @@
+:root{
+--Primary-color:rgba(0,0,0,0); 
+--Secondary-color: rgb(255, 255, 255);
+--Accent1-color: rgb(138,43,226);
+--Accent-color: rgb(131, 42, 214); 
+
+--heading-font: "Roboto";
+--text-font: "Open Sans" ;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -7,16 +17,19 @@ body{
     font-family:'Roboto' , sans-serif;
     font-weight: 400;
     margin: 0;
-    accent-color: rgb(17, 17, 17);
+    accent-color: var(--Primary-color);
     
 }
 
 h1{ font-weight:100;
     font-size: 3.5em;}
+
 h2{ font-weight:100;
     font-size: 2.7em;}
+
 h3{ font-weight:100;
     font-size: 1.25em;}
+
 ul{ list-style: none;}
 
 button{
@@ -24,10 +37,10 @@ button{
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background: rgb(113, 34, 187);
+    border: 2px solid rgba(0,0,0,0);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0);
+    color: var(--Secondary-color);
+    background: var(--acccent1-color);
 
 }
 
@@ -43,10 +56,9 @@ button:hover{
 
 .color-acento{
     color:blueviolet;
-}
 
 header{
-     background-color: rgb(245,245,245);
+     background-color: var(--Secondary-color));
     
 }
 
@@ -76,11 +88,11 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: #000000;
+    color: var(--Primary-color);
 }
 
 header a:hover{
-    color: blueviolet;
+    color: var(--Accent-color);
 }
 
 main{
@@ -105,8 +117,8 @@ section .White-Water-Rafting-Trips{
     overflow: hidden;
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0),
+  
     );
  
 }
@@ -124,14 +136,14 @@ section .White-Water-Rafting-Trips{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(248, 242, 242);
+    color: var(--Secondary-color));
     text-align: center;
     padding: 20px;
     border-radius: 10px;
 }
 #hero h1{
     color: white;
-    accent-color: rgb(250, 248, 248);
+    accent-color: var(--Secondary-color));
 }
 
 
@@ -171,8 +183,8 @@ section .White-Water-Rafting-Trips{
 
 .carta:first-child{
         background-image: linear-gradient(
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgba(0,0,0,0),
+
          );
 
 }
@@ -192,6 +204,10 @@ aside .h3{
         padding: 200px 12px;
 }
 
-footer{
+footer {
     text-align: center;
+    padding: 30px;
+    background-color: #f2f2f2;
 }
+
+/* This is a CSS comment */
