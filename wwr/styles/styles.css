@@ -138,6 +138,7 @@ main {
   left: 0;
   z-index: -1;
   height: auto;
+  padding: 5px;
 }
 
 .hero-text {
