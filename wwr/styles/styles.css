@@ -1,213 +1,216 @@
-:root{
---Primary-color:rgba(0,0,0,0); 
---Secondary-color: rgb(255, 255, 255);
---Accent1-color: rgb(138,43,226);
---Accent-color: rgb(131, 42, 214); 
+:root {
+  --primary-color: rgba(0, 0, 0, 0);
+  --secondary-color: rgb(255, 255, 255);
+  --accent1-color: rgb(138, 43, 226);
+  --accent-color: rgb(131, 42, 214);
 
---heading-font: "Roboto";
---text-font: "Open Sans" ;
+  --heading-font: "Roboto", sans-serif;
+  --text-font: "Open Sans", sans-serif;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-body{
-    font-family:'Roboto' , sans-serif;
-    font-weight: 400;
-    margin: 0;
-    accent-color: var(--Primary-color);
-    
+body {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  margin: 0;
+  background-color: var(--secondary-color);
+  color: black;
 }
 
-h1{ font-weight:100;
-    font-size: 3.5em;}
-
-h2{ font-weight:100;
-    font-size: 2.7em;}
-
-h3{ font-weight:100;
-    font-size: 1.25em;}
-
-ul{ list-style: none;}
-
-button{
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 2px solid rgba(0,0,0,0);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0);
-    color: var(--Secondary-color);
-    background: var(--acccent1-color);
-
+h1 {
+  font-weight: 100;
+  font-size: 3.5em;
 }
 
-button:hover{
-     background-color: rgb(101,33,165);
+h2 {
+  font-weight: 100;
+  font-size: 2.7em;
 }
 
-.container{
-    max-width:1400px;
-    margin: auto;
-
+h3 {
+  font-weight: 100;
+  font-size: 1.25em;
 }
 
-.color-acento{
-    color:blueviolet;
-
-header{
-     background-color: var(--Secondary-color));
-    
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-header .logo{
-   margin:0;
-   padding:25px 30px;
-   font-weight: bold;
-   color: #8338ec;
-   font-size: 1.6em;
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  color: var(--secondary-color);
+  background: blue;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-header .container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+button:hover {
+  background-color: rgb(33, 64, 165);
 }
 
-header nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
 }
 
-header a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--Primary-color);
+.color-acento {
+  color: blueviolet;
 }
 
-header a:hover{
-    color: var(--Accent-color);
+header {
+  background-color: var(--secondary-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-main{
-    max-width:1400px;
-    margin: auto;
+header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: var(--accent-color);
+  font-size: 1.6em;
 }
 
-section .White-Water-Rafting-Trips{
-    display: flex;
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#hero{
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 90vh;
-    color: white;
-    overflow: hidden;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0),
-  
-    );
- 
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
 }
 
-.hero-image{
-    max-width:1400px;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
-.hero-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--Secondary-color));
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-}
-#hero h1{
-    color: white;
-    accent-color: var(--Secondary-color));
+header a:hover {
+  color: var(--accent-color);
 }
 
-
-
-#Who-we-are .container{
-    text-align:  center;
-    padding: 200px 12px;
-
+main {
+  max-width: 1400px;
+  margin: auto;
 }
 
-#White-Water-Rafting-Trips{
-    background: rgba(30,30,30);
-    color: white;
-    text-align: center;
+#hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.7)
+  );
+  overflow: hidden;
 }
 
-#White-Water-Rafting-Trips .container{
-    padding: 150px 12px;
-
-
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
 }
 
-#White-Water-Rafting-Trips h2{
-    margin-top: 0;
-
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
 }
 
-#White-Water-Rafting-Trips p{
-    display: none;
+#Who-we-are .container {
+  text-align: center;
+  padding: 100px 12px;
 }
 
-#White-Water-Rafting-Trips .carta{
-    text-align: center;
-
+#White-Water-Rafting-Trips {
+  background: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
 }
 
-
-.carta:first-child{
-        background-image: linear-gradient(
-        rgba(0,0,0,0),
-
-         );
-
+#White-Water-Rafting-Trips .container {
+  padding: 150px 12px;
 }
 
-aside .h3{
-    text-align: center;
-    padding: 25px 30px;
+#White-Water-Rafting-Trips h2 {
+  margin-top: 0;
 }
 
-#Reserve-now{
-    text-align: center;
-    padding: 25px 30px;
+#White-Water-Rafting-Trips p {
+  display: block;
 }
 
-#Reserve-now .container{
-        text-align:  center;
-        padding: 200px 12px;
+#White-Water-Rafting-Trips .carta {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.carta:first-child {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+#Caracteristics {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 100px 12px;
+}
+
+#Caracteristics ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  font-weight: bold;
+}
+
+#Reserve-now {
+  background: var(--accent1-color);
+  text-align: center;
+  padding: 100px 12px;
+  color: white;
 }
 
 footer {
-    text-align: center;
-    padding: 30px;
-    background-color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  background-color: #f2f2f2;
+  font-size: 0.9em;
 }
 
 /* This is a CSS comment */
