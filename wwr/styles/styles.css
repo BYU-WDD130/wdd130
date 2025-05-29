@@ -98,6 +98,7 @@ header nav {
   flex-direction: column;
   text-align: center;
   padding-bottom: 25px;
+  text-decoration-color: var(--accent-color)
 }
 
 header a {
