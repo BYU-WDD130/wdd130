@@ -81,7 +81,7 @@ header .logo {
 }
 
 .header-image{
-    position: left;
+    position: relative;
     padding: 5px;
     text-align: right;
 
@@ -216,7 +216,7 @@ main {
   color: white;
 }
 
-#reserve-now .tex{
+#reserve-now .text{
   position: overlay;
   top: 50%;
   left: 50%;
