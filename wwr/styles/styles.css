@@ -215,4 +215,16 @@ footer {
   font-size: 0.9em;
 }
 
+.social-icons a {
+  text-decoration: none;
+  border: none;
+}
+
+.social-icons img {
+  width: 32px; /* o el tamaño deseado */
+  height: 32px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
 /* This is a CSS comment */
