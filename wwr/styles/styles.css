@@ -171,9 +171,32 @@ main {
   text-align: center;
 }
 
-#White-Water-Rafting-Trips .container {
-  padding: 150px 12px;
+.water-image{
+  float: right;
+  margin-left: 20px;  
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: auto;
+  padding: 5px;
 }
+
+.water-text{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
 
 #White-Water-Rafting-Trips h2 {
   margin-top: 0;
