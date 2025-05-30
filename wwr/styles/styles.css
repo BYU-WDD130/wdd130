@@ -96,11 +96,13 @@ header.logo {
 }
 
 .header-presentation {
+  margin: 0;
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 0;
+  padding: 25px 30px;
   font-family: var(--text-font)
+
 }
 
 .presentation li {
@@ -114,6 +116,8 @@ header.logo {
 	text-decoration: none;
 	font-size: 1.2rem;
 }
+
+
 /*
 .header-a {
   padding: 5px 12px;
