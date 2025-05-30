@@ -208,7 +208,7 @@ main {
 }
 
 .water-text{
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -235,7 +235,14 @@ main {
   
 }
 
-
+.flex-item {
+	width: 250px;
+	margin: 3rem;
+	border: 1px solid rgb(0 0 0 / 20%);
+	padding: 0.5rem;
+	background-color: #8382bd;
+	color: var(--accent-color)
+}
 
 #Caracteristics {
   background-color: #f7f7f7;
