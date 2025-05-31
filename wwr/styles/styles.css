@@ -248,6 +248,10 @@ main {
 	min-height: 300px;
 }
 
+.item4 {
+  min-height: 400px;
+}
+
 #Caracteristics {
   background-color: #f7f7f7;
   text-align: center;
