@@ -114,10 +114,8 @@ nav a{
     flex: 1 1 0px;
     text-align: center;
     text-decoration: none;
-    background-color: var(--secondary-color);
-    
+    background: var(--secondary-color);
     color: var(--secondary-color); 
-    border: 2px solid var(--accent2-color);
     border-radius: 3px;
 }
 
