@@ -83,8 +83,8 @@ header {
 }
 */
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
+.logo {
+ 	margin: 0 0.25rem 0 1rem;
 	width: 64px;
 	height: auto;
 }
@@ -312,22 +312,22 @@ main {
 }
 
 footer {
-  text-align: center;
-  padding: 30px;
-  background-color: #f2f2f2;
-  font-size: 0.9em;
+  margin-bottom: 1rem;
 }
 
-.social-icons a {
-  text-decoration: none;
-  border: none;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .social-icons img {
-  width: 32px; /* o el tamaño deseado */
-  height: 32px;
-  margin: 0 8px;
-  vertical-align: middle;
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
 }
 
-/* This is a CSS comment */
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
