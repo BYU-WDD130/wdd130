@@ -111,10 +111,10 @@ nav{
 */
 
 nav a{
+    display: block;
     flex: 1 1 0px;
     text-align: center;
     text-decoration: none;
-    background: var(--secondary-color);
     color: var(--secondary-color); 
     border-radius: 3px;
 }
