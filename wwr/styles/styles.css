@@ -63,10 +63,6 @@ button:hover {
 }
 
 header {
-  display: grid;
-  grid-template-columns: repeat(87,1fr);
-  grid-template-rows: repeat(14, 1fr);
-
   background-color: var(--primary-color);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin: 1rem auto;
@@ -75,7 +71,7 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
-  height: 8rem;
+
 }
 
 
