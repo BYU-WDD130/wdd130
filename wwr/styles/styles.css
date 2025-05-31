@@ -312,6 +312,12 @@ main {
 }
 
 footer {
+  background-color: #e0d9f0;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+footer p {
   margin-bottom: 1rem;
 }
 
