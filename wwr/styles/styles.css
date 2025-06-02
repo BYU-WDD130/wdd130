@@ -92,6 +92,7 @@ section h2 {
 #history img {
   width: 400px;
   height: auto;
+  border-radius: 5px;
 }
 
 /* Gallery Section */
