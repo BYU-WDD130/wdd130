@@ -61,12 +61,12 @@ nav a:hover {
   margin: auto;
   border-radius: 5px;
 }
-
+/*
 #hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
-
+*/
 #hero p {
   max-width: 800px;
   margin: 0 auto;
@@ -82,6 +82,10 @@ section h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+
+}
+.color-acento{
+  color: blueviolet;
 }
 
 /* History Section */
