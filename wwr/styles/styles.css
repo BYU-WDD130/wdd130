@@ -54,8 +54,9 @@ nav a:hover {
 }
 
 #hero-img{
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
+  border-radius: 5px;
 }
 
 #hero h1 {
