@@ -92,11 +92,8 @@ section h2 {
 
 /* History Section */
 #history {
-  display: flex;
-  gap: 1.5rem;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+padding: 60px 20px;
+background-color: var(--accent-color);
 }
 #text .block{
   text-align: center;
