@@ -96,7 +96,11 @@ section h2 {
   align-items: center;
   flex-wrap: wrap;
 }
+#history .text{
+ 
+  position: fixed;
 
+}
 #history img {
   width: 400px;
   height: auto;
