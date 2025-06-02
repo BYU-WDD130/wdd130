@@ -97,8 +97,9 @@ section h2 {
   flex-wrap: wrap;
 }
 #history .text{
- 
-  position: fixed;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 
 }
 #history img {
