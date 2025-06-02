@@ -93,8 +93,9 @@ section h2 {
 /* History Section */
 #history {
 padding: 60px 20px;
-background-color: var(--accent-color);
+background-color: #fff;
 }
+
 #text .block{
   text-align: center;
   font-size: 2rem;
@@ -136,12 +137,6 @@ background-color: var(--accent-color);
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Responsive behavior */
-@media (max-width: 900px) {
-  .history-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
 
   .image-block img {
     margin: 20px auto;
