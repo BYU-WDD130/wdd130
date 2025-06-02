@@ -115,6 +115,7 @@ section h2 {
 .gallery-item img {
   width: 150px;
   height: 188px;
+  border-radius: 5px;
 }
 
 .gallery-item caption {
