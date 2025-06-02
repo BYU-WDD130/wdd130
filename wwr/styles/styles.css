@@ -96,17 +96,45 @@ section h2 {
   align-items: center;
   flex-wrap: wrap;
 }
-#history .text{
+#text .block{
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 
 }
+
+/*
 #history img {
   width: 400px;
   height: auto;
   border-radius: 5px;
 }
+*/ 
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* Text blocks */
+.text-block, .history-block {
+  background-color: #f4f4f4;
+  padding: 20px 25px;
+  border-left: 5px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Image block */
+.image-block img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box
 
 /* Gallery Section */
 #gallery {
