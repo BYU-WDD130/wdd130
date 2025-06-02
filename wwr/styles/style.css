@@ -15,7 +15,6 @@
 }
 
 
-/* Tipografía */
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -25,7 +24,7 @@ body {
   background-color: var(--primary-color);
 }
 
-/* Header */
+
 header {
   display: flex;
   align-items: center;
@@ -33,7 +32,6 @@ header {
   background-color: rgb(86, 86, 153);
   padding: 1rem 30rem;
 }
-
 
 h1{
   color: #fff;
@@ -54,7 +52,7 @@ nav a:hover {
   color: var(--accent-color);
 }
 
-/* Hero Section */
+
 #hero {
   text-align: center;
   padding: 2rem;
@@ -72,7 +70,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-/* Section Blocks */
+
 section {
   padding: 2rem;
   border-top: 1px solid #ddd;
@@ -88,12 +86,10 @@ section h2 {
   color: blueviolet;
 }
 
-/* History Section */
 #history {
 padding: 60px 20px;
 background-color: #fff;
 }
-
 
 .history-grid {
   display: grid;
@@ -104,7 +100,7 @@ background-color: #fff;
   align-items: start;
 }
 
-/* Text blocks */
+
 .text-block, .history-block {
   background-color: #f0f0f0;
   padding: 10px;
@@ -113,7 +109,6 @@ background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* Image block */
 .image-block img {
   display: block;
   width: 250px;
@@ -122,8 +117,6 @@ background-color: #fff;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-
-/* Gallery Section */
 #gallery {
   text-align: center;
 }
@@ -152,7 +145,6 @@ background-color: #fff;
   font-size: 0.9rem;
 }
 
-/* Footer */
 footer {
   background-color: rgb(86, 86, 153);
   padding: 1.5rem 2rem;
