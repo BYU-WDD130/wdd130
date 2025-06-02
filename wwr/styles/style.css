@@ -22,7 +22,7 @@ body {
   padding: 0;
   line-height: 1.6;
   color: #333;
-  background-color: #fdfdfd;
+  background-color: var(--primary-color);
 }
 
 /* Header */
