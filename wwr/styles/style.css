@@ -67,6 +67,10 @@ nav a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+
 }
 
   /*
@@ -79,6 +83,7 @@ nav a:hover {
   gap: 20px;
 }
 */
+
 .hero-text {
 display: flex;
 text-align: left;
@@ -87,6 +92,7 @@ padding: 10px;
 border-left: 2px solid #4CAF50;
 border-radius: 5px;
 box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
 }
 
 .hero-block {
