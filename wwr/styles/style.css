@@ -63,12 +63,11 @@ nav a:hover {
 
 
 #hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; 
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
   /*
@@ -82,20 +81,19 @@ nav a:hover {
 }
 */
 .hero-text {
-  background-color: #f0f0f0;
-  padding: 10px;
-  border-left: 2px solid #4CAF50;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+flex: 1 1 50%;
+text-align: left;
 }
 
+.hero-block {
+  flex: 1 1 50%;
+  text-align: right;
+}
 
 #hero-block img{
-  display: block;
-  width: 250px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+max-width: 100%;
+height: auto;
+border-radius: 5px;
 }
 
 
