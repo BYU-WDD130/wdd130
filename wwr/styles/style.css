@@ -80,6 +80,7 @@ nav a:hover {
 }
 */
 .hero-text {
+display: flex;
 text-align: left;
 background-color: #f0f0f0;
 padding: 10px;
