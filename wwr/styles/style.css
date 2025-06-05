@@ -55,10 +55,23 @@ nav a:hover {
 
 #hero {
   text-align: center;
-  padding: 2rem;
+  padding: 20px;
   background-color: #fafafa;
+  border: 2px solid #000;
+  margin: 30px 0;
 }
 
+#hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 15px;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+/*
 #hero-img{
   max-width: 600px;
   margin: auto;
@@ -70,7 +83,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-
+*/
 section {
   padding: 2rem;
   border-top: 1px solid #ddd;
