@@ -35,7 +35,7 @@ header {
 
 
 .logo{
-  width: 100px;
+  width: 150px;
 }
 
 nav a {
@@ -57,7 +57,7 @@ nav a:hover {
   align-items: center;
 }
 
-#title{
+h1{
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
