@@ -63,6 +63,15 @@ nav a:hover {
 
 
 #hero-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; 
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+  /*
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +80,7 @@ nav a:hover {
   margin-top: 10px;
   gap: 20px;
 }
-
+*/
 .hero-text {
   background-color: #f0f0f0;
   padding: 10px;
