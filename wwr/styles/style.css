@@ -71,8 +71,9 @@ nav a:hover {
   gap: 20px;
 }
 
-/*
+
 #hero-img{
+  display: overlay;
   max-width: 600px;
   margin: auto;
   border-radius: 5px;
@@ -83,7 +84,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-*/
+
 section {
   padding: 2rem;
   border-top: 1px solid #ddd;
