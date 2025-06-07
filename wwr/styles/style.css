@@ -76,8 +76,44 @@ label{
   font-weight: bold;
 }
 
+input[type="text"], 
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.radio-group{
+  margin-bottom: 15px;
+}
+
+.radio-group label{
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: normal;
+}
+
+.newsletter{
+  margin:15px 0;
+}
 
 
+.submit-button{
+  background-color: blueviolet;
+  color:white;
+  border: none;
+  padding: 12px 20ox;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  background-color: rgb(104, 27, 177);
+}
 
 .logo{
   width: 150px;
