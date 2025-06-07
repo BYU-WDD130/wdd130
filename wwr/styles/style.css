@@ -105,8 +105,16 @@ textarea {
   border: 1px solid #ccc;
 }
 
+textarea{
+  resize: vertical;
+}
+
 .radio-group{
-  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: flex-start;
+
 }
 
 .radio-group label{
