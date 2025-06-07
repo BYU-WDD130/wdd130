@@ -114,6 +114,12 @@ textarea {
 .submit-button:hover{
   background-color: rgb(104, 27, 177);
 }
+.gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
 .logo{
   width: 150px;
