@@ -44,6 +44,8 @@
   <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d8652.560737974214!2d-75.64192247837995!3d41.11283512985701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPocono%20rivers!5e1!3m2!1sen!2sus!4v1749157134947!5m2!1sen!2sus" 
   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+
 <section class="employee-profile">
   <div class="employee">
     <img src="images/profile.jpg" alt="Sandra, Marketing Manager" width="150" height="150">
@@ -66,7 +68,37 @@
   <label for="email">Your Email</label>
   <input type="email" is="email" name="email" required />
 
+  <fieldset class="radio-group">
+    <legend><strong>Purpose of Your Message</strong></legend>
+
+    <label>
+      <input type="radio" name="purpose" value="General Inquiry" required />
+      General Inquiry
+    </label>
+    <label>
+      <input type="radio" name="purpose" value="Reservation Question" />
+      Reservarion Question
+    </label>
+    <laber>
+      <input type="radio" name="purpose" value="Website Suggestion"/>
+      Website Suggestion
+    </laber>
+  </fieldset>
+
+  <label for="messaje">Your Message</label>
+
+  <textarea id="message" name="message" row="5" required></textarea>
+
+  <div class="newletter">
+    <label>
+      <input type="chackbox" name="subscribe">
+      Please Suscribe me to the monthly newletter
+    </label>
+  </div>
+  <button type="submit" class="submit-button">Sen My Message</button>
 </form> 
+
+
 </main>
 <footer>
   <p>@2025 | HTML Form - User Poll Activity | Your Name</p>
