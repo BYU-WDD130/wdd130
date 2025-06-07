@@ -145,8 +145,7 @@ form textarea {
 }
 
 .newsletter {
-  margin-bottom: 20px;
-  align-self: flex-start;
+  margin: 15px 0; 
 }
 
 .submit-button {
