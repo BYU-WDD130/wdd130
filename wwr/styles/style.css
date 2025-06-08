@@ -174,10 +174,16 @@ nav a:hover {
   align-items: center;
 }
 
-h1{
+h1,h2 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
+
+}
+
+#main .p{
+  text-align: center;
+  margin-top: 20px;
 
 }
 
@@ -190,6 +196,8 @@ h1{
   justify-content: center;
   margin: 20px 0;
 }
+
+
 
 .content{
   display: flex;
