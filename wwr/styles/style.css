@@ -58,7 +58,7 @@ header {
   border: 1px solid #000;
 }
 
-.employee-profiles{
+.employee-profile{
   display: flex;
   gap: 40px;
   justify-content: center;
