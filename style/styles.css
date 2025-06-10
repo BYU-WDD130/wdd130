@@ -108,9 +108,30 @@ aside img {
     width: 200px;
     height: auto;
     }
+
 footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+  background-color: rgb(86, 86, 153);
+  padding: 1.5rem 2rem;
+  text-align: center;
 }
 
+footer p {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
