@@ -43,7 +43,7 @@ body {
   max-width: 1400px;
   height: 1200px;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -196,7 +196,7 @@ h1,h2 {
 }
 
 .color-acento{
-  color: blueviolet;
+  color: #4B0082;
 }
 
 .map {
