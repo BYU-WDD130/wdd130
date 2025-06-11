@@ -165,6 +165,7 @@ textarea{
 }
 
 nav {
+  color: var(--primary-color);
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
