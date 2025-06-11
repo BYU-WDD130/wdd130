@@ -1,7 +1,4 @@
 
-
-
-
 :root {
   --primary-color: rgba(0, 0, 0, 0);
   --secondary-color: rgb(255, 255, 255);
@@ -205,9 +202,6 @@ nav a:hover {
   align-items: center;
 }
 
-#information{
-  text-align: left;
-}
 
 h1,h2 {
   text-align: center;
@@ -222,7 +216,7 @@ p{
 }
 
 .information{
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
 
 }
