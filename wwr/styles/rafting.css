@@ -182,12 +182,16 @@ nav a:hover {
   align-items: center;
 }
 
-h1,h2, p{
+h1,h2 {
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
   color:#000
 
+}
+
+p{
+ color:#000
 }
 
 .information{
