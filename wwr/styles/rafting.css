@@ -68,6 +68,7 @@ main{
 }
 
 .employee-profile{
+  width: 250px;
   display: column;
   gap: 40px;
   justify-content: left;
