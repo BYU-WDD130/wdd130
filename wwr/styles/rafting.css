@@ -110,6 +110,10 @@ form{
 
 }
 
+#box{
+width: 350px;
+}
+
 
 label{
   display: block;
