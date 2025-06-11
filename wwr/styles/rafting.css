@@ -165,7 +165,6 @@ textarea{
 }
 
 nav {
-  color: var(--primary-color);
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -173,7 +172,7 @@ nav {
 nav a {
   margin: 0 1rem;
   text-decoration: none;
-  color: #fff;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
