@@ -95,11 +95,9 @@ form{
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-decoration-color: #000;
 }
 
-form-text{
- color:#000;
-}
 
 label{
   display: block;
