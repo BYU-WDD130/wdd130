@@ -177,7 +177,8 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--accent-color);
+  transform: scale(1.1);
+
 }
 
 
