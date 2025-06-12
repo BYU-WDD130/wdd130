@@ -16,7 +16,7 @@
 }
 
 body {
-  max-height: 100%;
+  height: 1600;
   display: flex;
   font-family: var(--heading-font);
   margin: 0;
