@@ -351,11 +351,22 @@ background-color: #fff;
   flex-direction: column;
   align-items: center;
 }
+.gallery-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .gallery-item img {
   width: 150px;
   height: 188px;
   border-radius: 5px;
+}
+
+.gallery-items img {
+  width: 250px;
+  height: 220px;
+  border-radius: 2px;
 }
 
 .gallery-item caption {
