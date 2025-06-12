@@ -358,7 +358,7 @@ background-color: #fff;
 #gallery .gallery-rows {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
 }
 
