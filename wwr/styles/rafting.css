@@ -383,6 +383,14 @@ footer p {
   margin: 0 auto;
 }
 
+.footer-contens{
+	display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .social-icons {
   display: flex;
   justify-content: right;
