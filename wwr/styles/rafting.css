@@ -197,13 +197,14 @@ nav a:hover {
 
 
 #hero {
-  padding: 60px 20px;
+  padding: 5px 5px;
   background-color: #fff;
   justify-content: space-between;
   align-items: center;
 }
 
 #hero2 {
+
   padding: 60px 20px;
   background-color: #fff;
   justify-content: space-between;
