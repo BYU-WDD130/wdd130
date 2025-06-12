@@ -342,6 +342,12 @@ background-color: #fff;
   background-color: #fff;
 }
 
+#gallery2 {
+  height: 700px;
+  text-align: center;
+  background-color: #fff;
+}
+
 #gallery .gallery-row {
   display: flex;
   justify-content: center;
