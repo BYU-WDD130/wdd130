@@ -329,6 +329,7 @@ background-color: #fff;
 }
 
 #gallery {
+  max-height: 100%;
   text-align: center;
   background-color: #fff;
 }
