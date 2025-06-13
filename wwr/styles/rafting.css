@@ -249,7 +249,11 @@ p{
 }
 
 main {
-  height: 1500px;
+  height: 1450px;
+}
+
+main2 {
+  height: 1400px;
 }
 
 .content{
