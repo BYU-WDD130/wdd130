@@ -28,6 +28,7 @@ body {
 }
 
 .container{
+  display: flex;
   width: 1000px;
   max-height: 100%;
   margin: 0 auto;
