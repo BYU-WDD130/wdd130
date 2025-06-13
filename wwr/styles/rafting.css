@@ -253,9 +253,29 @@ main {
   border-radius: 5px;
   max-width: 850px;
   margin: 0 auto;
-
-
 }
+
+.content2{
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+  /*
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 5px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  max-width: 850px;
+  margin: 0 auto;
+  */
+}
+
 
 #hero-grid {
   display: grid;
