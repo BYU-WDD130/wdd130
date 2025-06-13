@@ -257,8 +257,7 @@ main {
 
 .content2{
 
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: column;
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
