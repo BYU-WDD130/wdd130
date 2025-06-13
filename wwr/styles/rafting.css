@@ -360,11 +360,12 @@ background-color: #fff;
   flex-wrap: wrap;
 }
 
-#gallery .gallery-rows {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1.5rem;
 
+.gallery-rows {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 .gallery-item {
@@ -396,7 +397,7 @@ text-align: center;
 .gallery-items figcaption {
   margin-top: 0.5rem;
   font-size: 1rem;
-  color: aqua;
+  color: var(--primary-color)
 
 }
  
