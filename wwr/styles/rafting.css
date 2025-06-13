@@ -306,13 +306,14 @@ border-radius: 5px;
 }
 
 #hero-block2 img{
- align-items: center;
 width: 350px;
 height: 300px;
 border-radius: 5px;
 }
 
-
+#hero-block2 {
+  align-items: center;
+}
 
 #hero p {
   max-width: 800px;
