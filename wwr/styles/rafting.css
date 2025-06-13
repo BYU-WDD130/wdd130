@@ -356,7 +356,6 @@ background-color: #fff;
 .text-block, .history-block {
   background-color: #f0f0f0;
   padding: 10px;
-  border-left: 2px solid #4CAF50;
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
