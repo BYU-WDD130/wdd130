@@ -339,7 +339,7 @@ background-color: #fff;
 #gallery {
   height: 503px;
   text-align: center;
-  background-color: #fff;
+  background-color: #070607;
 }
 
 #gallery2 {
@@ -364,7 +364,7 @@ background-color: #fff;
 .gallery-rows {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
   justify-content: center;
 }
 
