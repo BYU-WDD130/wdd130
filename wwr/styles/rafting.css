@@ -305,16 +305,19 @@ height: auto;
 border-radius: 5px;
 }
 
-#hero-block2 img{
-width: 350px;
-height: 300px;
-border-radius: 5px;
-}
 
 #hero-block2 {
  display: center;
  margin: 0 auto;
 }
+
+#hero-block2 img{
+width: 100%;
+max-height: auto;
+display: block;
+margin: 0 auto;
+}
+
 
 #hero p {
   max-width: 800px;
