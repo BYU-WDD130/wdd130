@@ -302,6 +302,7 @@ border-radius: 5px;
 
 
 #hero-block2 {
+  align-items: center;
  display: center;
  margin: 0 auto;
 }
