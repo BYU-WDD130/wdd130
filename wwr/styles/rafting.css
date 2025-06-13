@@ -271,10 +271,9 @@ p{
 
 .content2{
 
-  display: column;
+  display: flex;
   align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
+  flex-direction: column;
 }
 
 #hero-grid {
