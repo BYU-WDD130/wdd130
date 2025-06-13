@@ -306,6 +306,7 @@ border-radius: 5px;
 }
 
 #hero-block2 img{
+  display: center;
 width: 350px;
 height: 300px;
 border-radius: 5px;
