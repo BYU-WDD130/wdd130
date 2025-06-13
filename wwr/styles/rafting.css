@@ -249,14 +249,11 @@ p{
   justify-content: center;
   margin: 20px 0;
 }
-
+/*
 main {
   height: 1470px;
 }
-
-main2 {
-  height: 1400px;
-}
+*/
 
 .content{
   display: flex;
@@ -382,10 +379,8 @@ background-color: #fff;
   margin: 0 auto;
   padding: 2rem;
 
-  /*
-  text-align: center;
-  background-color: #fff;
-  */
+
+
 }
 
 #gallery .gallery-row {
