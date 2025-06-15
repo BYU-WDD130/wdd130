@@ -503,7 +503,7 @@ table {
 
 th, td {
   padding: 12px 16px;
-  border: 1px solid #181717;
+  border: 1px solid #646161;
   text-align: left;
 }
 
@@ -519,7 +519,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-  background-color: #0e4549;
+  background-color: #f1f1f1;
 }
 
 
