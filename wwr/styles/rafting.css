@@ -64,7 +64,6 @@ body {
   flex-direction: row;        
   justify-content: center;    
   align-items: center;        
-              
   box-sizing: border-box;
   padding: 2rem;
 }
@@ -243,7 +242,6 @@ nav a:hover {
   transform: scale(1.1);
 
 }
-
 
 #hero {
 
@@ -611,11 +609,6 @@ footer p {
   }
 }
 
-
-
-
-
-/* === General Reset for Custom Elements === */
 .experience-section,
 .video-container,
 .testimonial-box4,
@@ -629,7 +622,6 @@ footer p {
   background-color: white;
 }
 
-/* === Section Titles === */
 .section-title {
   text-align: center;
   font-size: 2rem;
@@ -637,10 +629,9 @@ footer p {
   margin-bottom: 1rem;
 }
 
-/* === Video === */
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%; 
   height: 0;
   overflow: hidden;
   border-radius: 10px;
@@ -657,7 +648,6 @@ footer p {
   border: none;
 }
 
-/* === Testimonial Box === */
 .testimonial-box4 {
   background-color: #f9f9f9;
   border-left: 5px;
@@ -685,7 +675,7 @@ footer p {
   margin-top: 1rem;
 }
 
-/* === Subscribe Form === */
+
 .subscribe-section {
   background-color: #eef6fb;
   border: 1px solid #cce3f2;
@@ -732,10 +722,10 @@ footer p {
 }
 
 .submit-button:hover {
-  background-color: #005fa3;
+  background-color: rgb(86, 86, 153);
 }
 
-/* === Responsive Adjustments === */
+
 @media (max-width: 768px) {
   .section-title {
     font-size: 1.6rem;
