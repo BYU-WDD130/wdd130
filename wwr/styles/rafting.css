@@ -23,7 +23,7 @@ body {
   padding: 0;
   line-height: 1.6;
   color: var(--primary-color);
-  background-color: rgba(15, 35, 58, 0.1);
+  background-color: #1f92af;
   text-decoration-color: #000;
 }
 
