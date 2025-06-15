@@ -360,7 +360,7 @@ section h2 {
 }
 
 .trip-button {
-  background-color: var(--accent1-color);
+  background-color: rgb(86, 86, 153);
   color: var(--primary-color);
   font-size: 1.1rem;
   font-weight: bold;
