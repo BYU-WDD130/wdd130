@@ -375,8 +375,7 @@ section h2 {
 }
 
 .trip-button:hover {
-  color: inherit;
-  background-color: var(--accent-color);
+  transform: scale(1.1);
 }
 
 #history {
