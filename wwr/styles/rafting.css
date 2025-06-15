@@ -660,7 +660,7 @@ footer p {
 /* === Testimonial Box === */
 .testimonial-box4 {
   background-color: #f9f9f9;
-  border-left: 5px solid #4CAF50;
+  border-left: 5px;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 8px;
@@ -689,7 +689,6 @@ footer p {
 .subscribe-section {
   background-color: #eef6fb;
   border: 1px solid #cce3f2;
-  border-radius: 8px;
   padding: 2rem;
   text-align: center;
 }
