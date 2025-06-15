@@ -362,7 +362,7 @@ border-radius: 5px;
 
 #hero-block2 img{
 width: 754px;
-max-height: auto;
+max-height: 100%;
 display: block;
 margin: 0 auto;
 }
