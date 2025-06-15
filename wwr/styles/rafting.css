@@ -32,13 +32,17 @@ body {
   width: 1000px;
   max-height: 100%;
   margin: 0 auto;
-
   display: grid;
-
   padding: 2px;
+}
 
-
-
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 }
 
 .container2 {
@@ -52,7 +56,6 @@ body {
   margin: 0 auto;
   max-width: 1200px;
 }
-
 
 
 header {
