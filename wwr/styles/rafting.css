@@ -77,7 +77,8 @@ header {
 
 
 .stars {
-   color: #f1c40f;
+  text-decoration-color: black;
+  color: #f1c40f;
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
