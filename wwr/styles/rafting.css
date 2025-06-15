@@ -509,13 +509,13 @@ th, td {
 
 thead {
   background-color: var(--accent1-color);
-  color: black;
+  color: #f9f9f9;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: black;
 }
 
 tbody tr:hover {
