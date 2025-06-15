@@ -509,7 +509,7 @@ th, td {
 }
 
 thead {
-  background-color: var(--accent1-color);
+  background-color: rgb(86, 86, 153);
   color: #1c0a4d;
   text-transform: uppercase;
   letter-spacing: 1px;
