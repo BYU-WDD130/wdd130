@@ -354,6 +354,31 @@ section h2 {
   margin-bottom: 1.5rem;
 }
 
+.trip {
+  text-align: center;
+  padding: 25px 50px 50px 50px;
+}
+
+.trip-button {
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  min-width: 250px;
+  display: inline-block;
+  text-align:  center;
+}
+
+.trip-button:hover {
+  color: inherit;
+  background-color: var(--accent-color);
+}
+
 #history {
 padding: 10px 20px;
 background-color: #fff;
