@@ -1,6 +1,6 @@
 
 :root {
-  --primary-color: rgba(0, 0, 0, 0);
+  --primary-color: rgb(15, 15, 15);
   --secondary-color: rgb(255, 255, 255);
   --accent1-color: rgb(138, 43, 226);
   --accent-color: rgb(131, 42, 214);
@@ -32,8 +32,9 @@ body {
   width: 1000px;
   max-height: 100%;
   margin: 0 auto;
+/*
   display: grid;
-  max-height: 100%;
+*/
   padding: 2px;
 
 
@@ -116,11 +117,11 @@ header {
   flex-wrap: wrap;
   margin: 0;
 }
-
+/*
 .employee{
   text-align: left;
 }
-
+*/
 .employee img{
 width: 150px;
 height: 150px;
