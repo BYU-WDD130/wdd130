@@ -197,6 +197,7 @@ textarea{
 }
 
 .submit-button{
+  margin-top: 10px;
   background-color: blueviolet;
   color:white;
   border: none;
