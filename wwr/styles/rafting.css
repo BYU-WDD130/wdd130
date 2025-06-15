@@ -626,6 +626,7 @@ footer p {
   font-family: 'Open Sans', 'Roboto', sans-serif;
   max-width: 1000px;
   width: 100%;
+  background-color: white;
 }
 
 /* === Section Titles === */
