@@ -543,7 +543,7 @@ iframe {
   border: none;
 }
 .video-container {
-  position: flex;
+  position: row;
   padding-bottom: 56.25%; 
   height: 0;
   overflow: hidden;
