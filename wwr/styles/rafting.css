@@ -726,7 +726,7 @@ footer p{
   }
 }
 
-.boton-enlace {
+.link-button {
 
   background-color: rgb(86, 86, 153);
   color: white;
@@ -738,6 +738,6 @@ footer p{
   transition: background-color 0.3s ease;
 }
 
-.boton-enlace:hover {
+.link-button:hover {
   transform: scale(1.1);
 }
