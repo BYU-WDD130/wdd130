@@ -554,6 +554,9 @@ footer p {
   color: #fff;
 }
 
+footer .a{
+  color: whitesmoke;
+}
 .footer-content{
   
 	display: grid;
