@@ -726,21 +726,21 @@ footer p{
   }
 }
 
-.link-button {
-  width: 30px;
-  background-color: rgb(86, 86, 153);
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+.trip-info {
+  position: relative;
+  padding: 1rem;
+  background-color: #fff;
+}
 
+.button-wrapper {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 
 .trip-info button {
   background-color: green;
-
+  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
