@@ -494,7 +494,7 @@ text-align: center;
 
 .submit-button {
   margin-top: 10px;
-  background-color: green; /* Cambiado de rgb(86, 86, 153) a verde */
+  background-color: rgb(86, 86, 153);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -523,7 +523,7 @@ text-align: center;
 }
 
 .trip-info button {
-  background-color: green;
+
   color: white;
   padding: 12px 20px;
   border: none;
