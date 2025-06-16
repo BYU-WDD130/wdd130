@@ -499,7 +499,7 @@ table {
   width: 100%;
   max-width: 600px;
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: 10px auto;
   font-family: var(--heading-font);
   font-size: 16px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -727,6 +727,7 @@ footer p{
 }
 
 .boton-enlace {
+
   background-color: rgb(86, 86, 153);
   color: white;
   padding: 12px 24px;
