@@ -499,7 +499,7 @@ table {
   width: 100%;
   max-width: 600px;
   border-collapse: collapse;
-  margin: 10px auto;
+  margin: 10px;
   font-family: var(--heading-font);
   font-size: 16px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
