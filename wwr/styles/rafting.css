@@ -553,6 +553,10 @@ footer {
 footer .a{
   color: whitesmoke;
 }
+
+footer p{ 
+  color: whitesmoke;
+}
 .footer-content{
   
 	display: grid;
