@@ -228,6 +228,7 @@ nav {
   gap: 30px;
 }
 nav a {
+  color: whitesmoke;
   margin: 0 1rem;
   text-decoration: none;
 
