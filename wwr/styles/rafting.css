@@ -508,6 +508,11 @@ text-align: center;
   background-color: #fff;
 }
 
+
+button{
+  color: red;
+  background-color: blue;
+}
 .button-wrapper {
   position: absolute;
   bottom: 2rem;
