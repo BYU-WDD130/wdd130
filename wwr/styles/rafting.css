@@ -99,11 +99,7 @@ header {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.stars {
 
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
 
 .testimonial-text {
   font-size: 1rem;
@@ -653,11 +649,7 @@ footer p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.stars {
- 
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
+
 
 .testimonial-text {
   font-style: italic;
