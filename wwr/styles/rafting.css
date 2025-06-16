@@ -726,6 +726,17 @@ footer p{
   }
 }
 
+
+.submit-button {
+  margin-top: 10px;
+  background-color: green; /* Cambiado de rgb(86, 86, 153) a verde */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
 .trip-info {
   position: relative;
   padding: 1rem;
