@@ -286,8 +286,9 @@ p{
 }
 
 main {
-  background-color: #1a1a1a;
+  background-color: black;
 }
+
 .information{
   text-align: left;
   margin-top: 20px;
