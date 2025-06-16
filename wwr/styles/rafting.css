@@ -726,8 +726,7 @@ footer p{
   }
 }
 
-#gallery-row .button {
-
+.link-button {
   background-color: rgb(86, 86, 153);
   color: white;
   padding: 12px 24px;
@@ -738,6 +737,16 @@ footer p{
 
 }
 
-#gallery-row .link-button:hover {
-  transform: scale(1.1);
+.trip-info button {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.trip-info button:hover {
+  transform: scale(1.05);
 }
