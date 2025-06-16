@@ -510,7 +510,7 @@ text-align: center;
 
 
 button{
-  position: absolute;
+  position: flex;
   color: red;
   background-color: blue;
 }
