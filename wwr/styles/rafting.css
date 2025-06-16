@@ -21,7 +21,6 @@ body {
   font-family: var(--heading-font);
   margin: 0;
   padding: 0;
-  color: var(--primary-color);
   background-color: #115263;
   text-decoration-color: #000;
 }
@@ -231,8 +230,7 @@ nav a {
   color: whitesmoke;
   margin: 0 1rem;
   text-decoration: none;
-
-  font-weight: bold;
+ 
 }
 
 nav a:hover {
