@@ -512,16 +512,19 @@ text-align: center;
 
 
 .button-wrapper button {
-  background-color: rgb(86, 86, 153); /* Color personalizado */
+  background-color: rgb(86, 86, 153); 
   color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
-  transition: transform 0.2s ease;
+ 
 }
 
+.button-wrapper button {
+  transform: scale(1.05);
+}
 .trip-info button {
 
   color: white;
