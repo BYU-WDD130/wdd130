@@ -403,7 +403,7 @@ section h2 {
   text-align:  center;
 }
 
-.trip-button:hover {
+.trip-button:hover .button-wrapper button {
   transform: scale(1.1);
 }
 
@@ -522,9 +522,7 @@ text-align: center;
  
 }
 
-.button-wrapper button {
-  transform: scale(1.05);
-}
+
 .trip-info button {
 
   color: white;
