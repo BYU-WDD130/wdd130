@@ -727,6 +727,7 @@ footer p{
 }
 
 .link-button {
+  width: 30px;
   background-color: rgb(86, 86, 153);
   color: white;
   padding: 12px 24px;
@@ -739,7 +740,7 @@ footer p{
 
 .trip-info button {
   background-color: green;
-  color: white;
+
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
