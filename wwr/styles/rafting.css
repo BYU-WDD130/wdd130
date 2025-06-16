@@ -502,6 +502,8 @@ text-align: center;
   font-size: 15px;
   cursor: pointer;
 }
+
+
 .trip-info {
   position: relative;
   padding: 1rem;
@@ -509,15 +511,15 @@ text-align: center;
 }
 
 
-button{
-  display: flex;
-  color: red;
-  background-color: blue;
-}
-.button-wrapper {
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
+.button-wrapper button {
+  background-color: rgb(86, 86, 153); /* Color personalizado */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .trip-info button {
