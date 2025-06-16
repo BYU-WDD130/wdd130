@@ -491,6 +491,43 @@ text-align: center;
   font-size: 0.9rem;
 }
 
+
+.submit-button {
+  margin-top: 10px;
+  background-color: green; /* Cambiado de rgb(86, 86, 153) a verde */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.trip-info {
+  position: relative;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.trip-info button {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.trip-info button:hover {
+  transform: scale(1.05);
+}
+
 figcaption {
   color:#000;
 }
@@ -727,38 +764,3 @@ footer p{
 }
 
 
-.submit-button {
-  margin-top: 10px;
-  background-color: green; /* Cambiado de rgb(86, 86, 153) a verde */
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  font-size: 15px;
-  cursor: pointer;
-}
-.trip-info {
-  position: relative;
-  padding: 1rem;
-  background-color: #fff;
-}
-
-.button-wrapper {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-}
-
-.trip-info button {
-  background-color: green;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.trip-info button:hover {
-  transform: scale(1.05);
-}
