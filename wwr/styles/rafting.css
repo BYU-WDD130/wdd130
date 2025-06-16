@@ -18,7 +18,7 @@
 body {
 
   display: flex;
-  font-family: rgb(28, 31, 32);
+  font-family: var(--heading-font);
   margin: 0;
   padding: 0;
  
