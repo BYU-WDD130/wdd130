@@ -495,8 +495,10 @@ text-align: center;
 
 .submit-button {
   margin-top: 10px;
+  /*
   background-color: rgb(86, 86, 153);
   color: white;
+  */
   border: none;
   padding: 12px 20px;
   border-radius: 5px;
@@ -743,7 +745,7 @@ footer p{
   border-radius: 5px;
   font-size: 1rem;
 }
-
+/*
 .submit-button {
   padding: 0.6rem 1.2rem;
   border: none;
@@ -752,7 +754,7 @@ footer p{
   cursor: pointer;
 
 }
-
+*/
 .submit-button:hover {
   background-color: rgb(86, 86, 153);
 }
