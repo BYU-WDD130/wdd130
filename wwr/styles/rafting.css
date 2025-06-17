@@ -27,8 +27,11 @@ body {
 }
 
 .logo{
+  width: 150px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+
 .container{
   display: flex;
   width: 1000px;
@@ -218,9 +221,7 @@ textarea{
   transform: scale(1.1);
 }
 
-.logo{
-  width: 150px;
-}
+
 
 nav {
   display: flex;
